@@ -66,3 +66,10 @@ a {
 html {
     scroll-behavior: smooth;
 }
+iframe {
+    transition: transform .2s;
+    border: 10px solid
+}
+iframe:hover {
+    transform: scale(0.9);
+}
